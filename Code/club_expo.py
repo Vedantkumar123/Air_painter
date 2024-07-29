@@ -6,7 +6,7 @@ detector = HandDetector(detectionCon=0.8, maxHands=1)
 width = 1080
 height = 720
 # folderpath = r"C:\Users\KIIT\OneDrive\Desktop\Vedant_Official\vedant_projects\Deep learning\hand_gesture\presentation"
-folderpath = "presentation"
+folderpath = r"presentation"
 cam = cv2.VideoCapture(0)
 # cam=cv2.VideoCapture("http://192.168.165.92:8080/video")
 cam.set(3, width)
